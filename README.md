@@ -7,53 +7,51 @@
 
 # 🚀 Team Dev Pro - Multi-Agent Skill
 
-**Una arquitectura de ingeniería de software de alto rendimiento simulada para Modelos de Lenguaje (Claude / Gemini).**
+**A simulated high-performance software engineering architecture for Large Language Models (Claude / Gemini).**
 
 </div>
 
 ---
 
-## 📌 ¿Qué es Team Dev Pro?
+## 📌 What is Team Dev Pro?
 
-Team Dev Pro no es un simple prompt, es una **arquitectura multi-agente** empaquetada como un Skill. Su objetivo es forzar a la IA a comportarse como un equipo completo de 9 ingenieros de software, eliminando divagaciones, preguntas innecesarias y entregando código nivel producción de forma inmediata.
+Team Dev Pro is not just a simple prompt; it is a **multi-agent architecture** packaged as a "Skill." Its purpose is to compel the AI ​​to function as a complete team of 9 software engineers—eliminating rambling and unnecessary questions, and delivering production-ready code immediately.
 
-Desarrollado y optimizado por [Alex & Alex Software and Innovation](https://alexyalex.site).
+Developed and optimized by [Alex & Alex Software and Innovation](https://alexyalex.site).
 
-## ⚙️ ¿Cómo Funciona?
+## ⚙️ How Does It Work?
 
-El Skill utiliza un **Pipeline de Triage Inteligente**. Cuando inicias un prompt con la palabra clave `Team:`:
+The Skill utilizes an **Intelligent Triage Pipeline**. When you begin a prompt with the keyword `Team:`:
 
-1. **Bypass de Emergencia:** Si la petición es trivial (ej. "dime la hora", "resume este texto en 2 líneas"), el equipo se ignora y la IA responde directo para no gastar tokens ni tiempo.
-2. **Full Pipeline:** Si es una tarea compleja de código o arquitectura, el sistema asume 9 roles en cadena silenciosa:
-   - 👔 **PO (Product Owner):** Define requerimientos clave.
-   - 🏗️ **Lead Architect:** Diseña la arquitectura global y stack.
-   - 🗄️ **DBA:** Estructura modelos y queries.
-   - 🚀 **DevOps:** Prepara Docker y configs.
-   - ⚙️ **Backend:** Escribe la lógica fuerte.
-   - 🎨 **Frontend:** Pule la interfaz gráfica.
-   - 🔒 **SecOps:** Tapona vulnerabilidades.
-   - 🧪 **QA:** Mete lógica defensiva.
-   - 👁️ **Code Reviewer:** Ensambla, limpia de comentarios basura y te entrega el producto final.
+1. **Emergency Bypass:** If the request is trivial (e.g., "tell me the time," "summarize this text in 2 lines"), the "team" is bypassed, and the AI ​​responds directly to save time and tokens.
+2. **Full Pipeline:** For complex coding or architecture tasks, the system activates 9 roles in a silent, sequential chain:
+- 👔 **PO (Product Owner):** Defines key requirements. 
+- 🏗️ **Lead Architect:** Designs the overall architecture and tech stack. 
+- 🗄️ **DBA:** Structures data models and queries. 
+- 🚀 **DevOps:** Prepares Docker configurations and setup. 
+- ⚙️ **Backend:** Develops the core logic. 
+- 🎨 **Frontend:** Refines the graphical interface. 
+- 🔒 **SecOps:** Addresses and patches vulnerabilities. 
+- 🧪 **QA:** Implements defensive logic. 
+- 👁️ **Code Reviewer:** Assembles the final output, removes unnecessary comments, and delivers the finished product.
 
-Todo el texto generado está filtrado por directrices *Strict Output* (Cero saludos, cero intros, directo al grano).
+All generated text adheres to *Strict Output* guidelines (no greetings, no introductions—straight to the point).
 
-## 🛠️ Instalación y Uso (GitHub)
+## 🛠️ Installation and Usage (GitHub)
 
-Para integrar este Skill en tu entorno, clona el repositorio directamente:
+To integrate this Skill into your environment, clone the repository:
 
 ```bash
 git clone https://github.com/ale-ratalife/Team-Dev-Pro-Clade-Skill-.git
 ```
 
-### Configuración Manual
-1. Descarga el repositorio.
-2. Copia el contenido de `SKILL.md` como tu prompt maestro.
-3. Asegúrate de adjuntar en tu base de conocimiento o contexto del agente los archivos de las carpetas `protocols/`, `roles/` y `guidelines/` para que las reglas estrictas se apliquen.
-4. **Uso:** Simplemente escribe `Team: crea un SaaS en Next.js` en tu chat.
+### Manual Setup
+1. Download the repository.
+2. Copy the contents of `SKILL.md` to use as your master prompt.
+3. Ensure that the files from the `protocols/`, `roles/`, and `guidelines/` folders are added to your agent’s knowledge base or context so that the strict rules are applied.
+4. **Usage:** Simply type `Team: create a SaaS in Next.js` in your chat. ## 📄 License
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
-*Hecho con ⚡ por [Alex & Alex Software and Innovation](https://alexyalex.site).*
+*Made with ⚡ by [Alex & Alex Software and Innovation](https://alexyalex.site).*
